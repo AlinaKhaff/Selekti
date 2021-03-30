@@ -1,0 +1,73 @@
+<div class="bg-container">
+    <div class="wrap">
+        <div class="house"></div>
+        <div class="oval"> </div>
+        <div class="window"></div>
+    </div>
+</div>
+
+<style>
+    .bg-container {
+        width: 400px;
+        height: 300px;
+        background-color: #6592cf;
+        position: absolute;
+    }
+
+
+    .wrap {
+        padding-top: 40px;
+        position: absolute;
+    }
+
+    .house {
+        position: absolute;
+        width: 150px;
+        height: 110px;
+        margin: 0;
+        border-bottom-right-radius: 17px;
+        border-bottom-left-radius: 17px;
+        background: #243d83;
+        left: 120px;
+        top: 120px;
+    }
+
+
+    .house::before {
+
+        content: '';
+        position: absolute;
+        left: -26px;
+        right: 0px;
+        top: -75px;
+        width: 0;
+        height: 0;
+        border-bottom: 80px solid #243d83;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+    }
+
+    .oval {
+        position: absolute;
+        width: 120px;
+        height: 12px;
+        margin: 0 auto;
+        border-radius: 20px;
+        background: #eeb850;
+        left: 135px;
+        top: 115px;
+    }
+
+    .window {
+
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        background: #eeb850;
+        left: 170px;
+        top: 180px;
+    }
+</style>

@@ -1,0 +1,73 @@
+<div>
+  <div class='div-fill div-bg'>
+  </div>
+  <div class='div-fill div-op'>
+    <div class='div-fill div-border'></div>
+    <div class="triangle1 tr-pos-1"></div>
+    <div class="triangle2 tr-pos-2"></div>
+  </div>
+
+</div>
+<style>
+  div {
+    box-sizing: border-box;
+  }
+
+  .div-fill {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+  }
+
+  .div-border {
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-left-width: 110px;
+    border-right-width: 110px;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 50%;
+    border-color: #293462;
+    z-index: 10;
+  }
+
+  .div-bg {
+    z-index: 8;
+    border-color: #293462;
+    background-color: #fff1c1;
+    border-width: 60px;
+    border-style: solid;
+  }
+
+
+  .triangle1 {
+    width: 0;
+    height: 0;
+    border-left: 55px solid transparent;
+    border-right: 85px solid transparent;
+    border-bottom: 62px solid #fe5f55;
+    z-index: 9;
+  }
+
+  .triangle2 {
+    width: 0;
+    height: 0;
+    border-left: 135px solid transparent;
+    border-right: 124px solid transparent;
+    border-bottom: 137px solid #fe5f55;
+    z-index: 9;
+  }
+
+  .tr-pos-1 {
+    position: absolute;
+    width: 123px;
+    left: 85px;
+    top: 165px;
+  }
+
+  .tr-pos-2 {
+    position: absolute;
+    left: 99px;
+    top: 103px;
+  }
+</style>
