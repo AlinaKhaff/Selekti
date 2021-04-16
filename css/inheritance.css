@@ -1,0 +1,42 @@
+body {
+    font-size: 20px;
+    color: #913D88;
+    border: 1px solid #333;
+}
+
+.secondary {
+    font-size: 100px;
+    color: blue;
+}
+
+.content {
+    font-size: 50px;
+    color: aqua;
+}
+
+.content {
+    font-size: 15px;
+}
+
+#pagewrapper {
+    font-size: 30px;
+}
+
+#secondary1 {
+    font-size: 100px;
+    color: blue;
+}
+
+#pagewrapper>.content{
+    font-size: 50px;
+    color: blue;
+
+}
+#pagewrapper.content{
+    font: size 50px;
+    color: blue;
+
+}
+
+
+
